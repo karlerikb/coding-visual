@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Visuals</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <div id="codingContainer">
+        <pre>
+ 1      def <span id="line1-move" class="line1">move(<span id="line1-n" class="line1">n</span>, <span id="line1-A" class="line1">A</span>, <span id="line1-B" class="line1">B</span>)</span>:
+ 2
+ 3          if <span id="line3-if"><span id="line3-n">n</span> == 1</span>:
+ 4              <span id="line4-cmd">move top disk from <span id="line4-A">A</span> to <span id="line4-B">B</span></span>
+ 5    
+ 6          if <span id="line6-if"><span id="line6-n">n</span> > 1</span>:
+ 7              move(n-1, A, C)
+ 8              move <span>n</span><span>th</span> smallest disk from <span>A</span> to <span>B</span>
+ 9              move(n-1, C, B)
+10
+11      <span id="line11-move" class="line11">move(<span id="line11-n" class="line11">3</span>, <span id="line11-A" class="line11">"A"</span>, <span id="line11-B" class="line11">"B"</span>)</span>
+        </pre>
+    </div>
+
+    <!-- <div>
+        Test <span class="methodArguments">span</span>
+    </div> -->
+
+    <div id="controls">
+        <button id="stepBack">Step Back</button>
+        <button id="stepForward">Step Forward</button>
+        <div id="stepCount">
+            0
+        </div>
+    </div>
+    <script src="//code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</body>
+</html>

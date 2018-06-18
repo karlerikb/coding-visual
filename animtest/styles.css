@@ -1,0 +1,32 @@
+body {
+    font-family: "Andale Mono";
+}
+#codingContainer {
+    margin: 0 auto;
+    width: 960px;
+    background-color: #333;
+    padding: 20px;
+    color: #eee;
+    font-size: 13;
+    /* color: #97781c */
+}
+
+#controls > button, div {
+    display: block;
+}
+
+.methodArguments {
+    position: relative;
+    animation-name: methodArgumentsAnim;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+}
+
+@keyframes methodArgumentsAnim {
+    0% {top: 191px;}
+    100% {top: 41px;}
+}
+
+span {
+    position: relative;
+}

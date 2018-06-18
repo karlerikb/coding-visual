@@ -1,0 +1,51 @@
+#inputContainer {
+    background-color: #999;
+    width: 60%;
+    height: 30%;
+    margin: 0 auto;
+}
+
+#inputContainer > textarea {
+    width: 80%;
+    height: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+#submitTextBtn {
+    margin: 0 auto;
+    display: block;
+}
+
+#displayContainer {
+    background-color: #333;
+    height: 50%;
+    width: 60%;
+    margin: 20px auto;
+    overflow: auto;
+}
+
+#codeContainer {
+    background-color: #333;
+    color: white;
+    padding: 0 10px;
+    box-sizing: border-box;
+    float: right;
+    height: auto;
+    width: 90%;
+}
+
+#rowNumbersContainer {
+    background-color: #333;
+    color: #8b8b8b;
+    text-align: right;
+    padding: 0 20px;
+    box-sizing: border-box;
+    float: left;
+    height: auto;
+    width: 10%;
+}
+
+span {
+    background-color: #83762d;
+}
