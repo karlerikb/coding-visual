@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Visual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainContainer" class="clearfix">
+        <div id="codingContainer" class="clearfix">
+            <div id="rowNumbers">
+<!--                 <pre> -->
+<div class="rowLines" id="row1">1</div>
+
+<div class="rowLineFunctionCall" id="rowFnCall-1">
+<div class="rowLines"> </div>
+
+<div class="rowLines" id="row2">2</div>
+<div class="rowLines" id="row3">3</div>
+<div class="rowLines" id="row4">4</div>
+<div class="rowLines" id="row5">5</div>
+<div class="rowLines" id="row6">6</div>
+<div class="rowLines" id="row7">7</div>
+<div class="rowLines" id="row8">8</div>
+<div class="rowLines" id="row9">9</div>
+<div class="rowLines" id="row10">10</div>
+<div class="rowLines" id="row11">11</div>
+<div class="rowLines" id="row12">12</div>
+<div class="rowLines" id="row13">13</div>
+<div class="rowLines" id="row14">14</div>
+<div class="rowLines" id="row15">15</div>
+<div class="rowLines" id="row16">16</div>
+<div class="rowLines" id="row17">17</div>
+<div class="rowLines" id="row18">18</div>
+<div class="rowLines" id="row19">19</div>
+<div class="rowLines" id="row20">20</div>
+<div class="rowLines" id="row21">21</div>
+<div class="rowLines" id="row22">22</div>
+<div class="rowLines" id="row23">23</div>
+<div class="rowLines" id="row24">24</div>
+<div class="rowLines" id="row25">25</div>
+<div class="rowLines" id="row26">26</div>
+<div class="rowLines" id="row27">27</div>
+<div class="rowLines" id="row28">28</div>
+
+</div>
+<!--                 </pre> -->
+            </div> <!-- end #rowNumbers -->
+            <div id="codeLines">
+<!--                 <pre> -->
+<div class="codeLines" id="line1">def move(3, "A", "B"):</div>
+
+<div class="recursionFunctionCall" id="fnCall-1">
+<div class="codeLines">def move(2, "A", "C"):</div>
+
+<div class="codeLines" id="line2">    </div>
+<div class="codeLines" id="line3">    if A == "A":</div>
+<div class="codeLines" id="line4">        if B == "B":</div>
+<div class="codeLines" id="line5">            C = "C"</div>
+<div class="codeLines" id="line6">        else:</div>
+<div class="codeLines" id="line7">            C = "B"</div>
+<div class="codeLines" id="line8">    else:</div>
+<div class="codeLines" id="line9">        if A == "B":</div>
+<div class="codeLines" id="line10">            if B == "A":</div>
+<div class="codeLines" id="line11">                C = "C"</div>
+<div class="codeLines" id="line12">            else:</div>
+<div class="codeLines" id="line13">                C = "A"</div>
+<div class="codeLines" id="line14">        else:</div>
+<div class="codeLines" id="line15">            if B == "A":</div>
+<div class="codeLines" id="line16">                C = "B"</div>
+<div class="codeLines" id="line17">            else:</div>
+<div class="codeLines" id="line18">                C = "A"</div>
+<div class="codeLines" id="line19">    </div>
+<div class="codeLines" id="line20">    if n == 1:</div>
+<div class="codeLines" id="line21">        print("move top disk from %s to %s" % (A, B))</div>
+<div class="codeLines" id="line22">    </div>
+<div class="codeLines" id="line23">    if n > 1:</div>
+<div class="codeLines" id="line24">        move(n-1, A, C)</div>
+<div class="codeLines" id="line25">        print("move %dth smallest disk from %s to %s" % (n, A, B))</div>
+<div class="codeLines" id="line26">        move(n-1, C, B)</div>
+<div class="codeLines" id="line27">    </div>
+<div class="codeLines" id="line28">move(3, "A", "B")</div>
+</div> <!-- end #fnCall-1 -->
+<!--                 </pre> -->
+            </div> <!-- end #codeLines -->
+        </div> <!-- end #codingContainer -->
+    
+        <div id="controlsContainer">
+            <div id="stepBtnContainer">
+                <button id="stepForwardBtn">Step Forward</button>
+                <button id="stepBackBtn">Step Back</button>
+                <div id="stepCountContainer">0</div>
+            </div> <!-- end #stepBtnContainer -->
+            <div id="feedbackContainer">
+                <div id="feedbackBox">
+                    span span <span>span</span>
+                </div> <!-- end #feedbackBox -->
+            </div> <!-- end #feedbackContainer -->
+        </div> <!-- end #controlsContainer -->
+    </div> <!-- end #mainContainer -->
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+

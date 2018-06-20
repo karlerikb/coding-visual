@@ -1,0 +1,111 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: "Andale Mono";
+}
+
+#codingContainer {
+    width: 60%;
+    height: auto;
+    background-color: #999;
+    float: left;
+}
+
+#mainContainer {
+    width: 100%;
+    height: 100%;
+    background-color: #999;
+    margin: 0 auto;
+}
+
+#controlsContainer {
+    width: 39%;
+    height: 100%;
+    background-color: #333;
+    float: right;
+}
+
+#rowNumbers {
+    width: 10%;
+    height: auto;
+    background-color: #333;
+    color: #8b8b8b;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+#codeLines {
+    width: 90%;
+    height: auto;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    float: right;
+}
+
+.rowLines, .codeLines {
+    white-space: pre;
+}
+
+#stepBtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stepBtnContainer > * {
+    display: inline-block;
+    margin: 20px;
+    width: 20%;
+}
+
+#stepCountContainer {
+    background-color: #eee;
+    text-align: center;
+}
+
+button {
+    background-color: #45c556;
+    border: solid 1px black;
+}
+
+#feedbackContainer {
+    width: 95%;
+    height: 50%;
+    background-color: #3f5061;
+    margin: 0 auto;
+    color: #e4e4e4;
+}
+
+#feedbackBox {
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+span {
+    background-color: #c2a955;
+}
+
+#recursionInvocation {
+    display: block;
+}
+
+#fnCall-1 {
+    background-color: #494949;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#rowFnCall-1 {
+    padding: 5px 5px 5px 0;
+    box-sizing: border-box;
+}
