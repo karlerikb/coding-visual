@@ -1,0 +1,103 @@
+body {
+    font-family: "Andale Mono";
+}
+
+#codingContainer {
+    height: 100%;
+    width: 50%;
+    background-color: #333;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+#rowNumbers {
+    height: 100%;
+    width: 10%;
+    background-color: inherit;
+    float: left;
+    color: #999;
+    white-space: pre;
+    padding: 10px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#codeLines {
+    height: 100%;
+    width: 90%;
+    background-color: inherit;
+    float: right;
+    color: #eee;
+    white-space: pre;
+    padding: 10px;
+    box-sizing: border-box;
+    border-right: 1px solid #242424;
+}
+
+#controlsContainer {
+    height: 100%;
+    width: 50%;
+    background-color: #333;
+    padding: 10px;
+    box-sizing: border-box;
+    float: right;
+}
+
+#buttonsContainer {
+    height: 10%;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stepCounterContainer {
+    background-color: #333;
+    color: #fc3
+}
+
+#buttonsContainer > * {
+    display: inline-block;
+    margin: 0 20px;
+    width: 20%;
+    text-align: center;
+}
+
+button {
+    height: 50%;
+    background-color: #4cb964;
+    border: solid 1px black;
+}
+
+#feedbackContainer {
+    height: 50%;
+    width: 95%;
+    background-color: #999;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 20px 0 0 10px;
+}
+
+#variableContainer {
+    width: auto;
+    background-color: #eee;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#variableBox {
+    height: 0;
+    width: 50px;
+    border-top: 50px solid #385f91;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-radius: 10px;
+    position: relative;
+    opacity: 0.8;
+}
+
+
+
